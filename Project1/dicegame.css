@@ -1,0 +1,48 @@
+*{
+    background-color: rgb(39, 88, 21);
+    text-align: center;
+}
+#container{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    color: greenyellow;
+}
+
+input{
+    font-size: 1em;
+    text-align: center;
+    color: greenyellow;
+    width: 150px;
+    font-weight: bold;
+}
+
+button{
+    font-size: 1em;
+    margin: 3px,2px;
+    font-weight: 300;
+    color: greenyellow;
+    transition: 0.25ms;
+    width: 4em;
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color: rgb(46, 67, 45);
+}
+
+button:active{
+    background-color: greenyellow;
+}
+
+#diceresult{
+    margin-top: 10px;
+}
+
+#diceimages{
+    width: 50px;
+    margin:15px;
+    height: 50px;
+    margin-left: 14em;
+}
